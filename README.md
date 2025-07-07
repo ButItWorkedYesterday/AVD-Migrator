@@ -54,5 +54,5 @@ Also required:
 
 ### How to use it:
 
-Copy the script to your IDE and update all key variables.
+Just copy the script to your IDE and update all key variables.
 Once completed run the script and connect to your tenant - It will then start the migration process according to the key variables you provided.
