@@ -51,3 +51,23 @@ Also required:
 - Migration takes about 15 minutes per VM. The process runs sequentially (no parallelism yet), but I may consider looking into parallel execution in a future update if there's demand.
 
 - Lastly, this script was designed with personal host pools in mind. While you can technically use it to migrate pooled session hosts (just remove the user assignment logic), I haven’t tested that scenario.
+
+### How to use it:
+
+Copy the script to your IDE and update all key variables:
+
+**$Source_subscription_Id = "source_sub_id" # Replace with your actual source subscription ID
+$Destination_subscription_Id = "destination_sub_id" # Replace with your actual destination subscription ID
+$SourcevmResourceGroupName = "source_sessionhosts_rg" # Replace with your sessionhosts source resource group name
+$DestinationvmResourceGroupName= "destination_sessionhosts_rg"  # Replace with your sessionhosts destination resource group name
+$galleryName = "gallery_name" # Replace with your gallery name
+$galleryResourceGroupName = "compute_gallery_rg" # Replace with your gallery resource group name
+$imageDefinitionName = "image_definition_name" # Replace with your image definition name
+$location = "region_name" # Replace with your region name
+$DestHPresourceGroupName = "destination_hostpool_rg" # Replace with your destination hostpool resource group name
+$DesthostPoolName = "destination_hostpool_name" # Replace with your destination host pool name
+$SourceHostPoolName = "source_hostpool_name" # Replace with your source host pool name
+$vnetName = "destination_vnet_name" # Replace with your destination VNET name
+$vnetrg = "destination_vnet_rg" # Replace with your destination VNET resource group name**
+
+Once completed run the script and connect to your tenant - It will then start the migration process according to the key variables you provided.
