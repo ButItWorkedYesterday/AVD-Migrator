@@ -3,7 +3,7 @@ Connect-AzAccount
 $scriptStartTime = Get-Date
 Write-Output "Script started at: $($scriptStartTime.ToString('yyyy-MM-dd HH:mm:ss'))"
 
-# Define variables
+# Define key variables
 $Source_subscription_Id = "source_sub_id" # Replace with your actual source subscription ID
 $Destination_subscription_Id = "destination_sub_id" # Replace with your actual destination subscription ID
 $SourcevmResourceGroupName = "source_sessionhosts_rg" # Replace with your sessionhosts source resource group name
