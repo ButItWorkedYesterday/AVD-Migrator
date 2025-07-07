@@ -2,7 +2,7 @@
 
 Moving Azure Virtual Desktop (AVD) session hosts between subscriptions isn’t a built-in feature of Azure, but it’s a common need for many customers. This PowerShell script automates the entire process end-to-end, including image capture, redeployment, host registration, user assignment migration, and finally, the removal of the old VMs. It enables you to migrate entire Personal Host Pools — along with all user applications, customizations, and local files — across Subscriptions, Regions, and VNets.
 
-> **Test the script in a test hostpool/environment to understand and validate how it works!**
+### Test the script in a test hostpool/environment to understand and validate how it works! ###
 
 ---
 
