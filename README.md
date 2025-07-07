@@ -54,20 +54,5 @@ Also required:
 
 ### How to use it:
 
-Copy the script to your IDE and update all key variables:
-
-$Source_subscription_Id = "source_sub_id" # Replace with your actual source subscription ID
-$Destination_subscription_Id = "destination_sub_id" # Replace with your actual destination subscription ID
-$SourcevmResourceGroupName = "source_sessionhosts_rg" # Replace with your sessionhosts source resource group name
-$DestinationvmResourceGroupName= "destination_sessionhosts_rg"  # Replace with your sessionhosts destination resource group name
-$galleryName = "gallery_name" # Replace with your gallery name
-$galleryResourceGroupName = "compute_gallery_rg" # Replace with your gallery resource group name
-$imageDefinitionName = "image_definition_name" # Replace with your image definition name
-$location = "region_name" # Replace with your region name
-$DestHPresourceGroupName = "destination_hostpool_rg" # Replace with your destination hostpool resource group name
-$DesthostPoolName = "destination_hostpool_name" # Replace with your destination host pool name
-$SourceHostPoolName = "source_hostpool_name" # Replace with your source host pool name
-$vnetName = "destination_vnet_name" # Replace with your destination VNET name
-$vnetrg = "destination_vnet_rg" # Replace with your destination VNET resource group name
-
+Copy the script to your IDE and update all key variables.
 Once completed run the script and connect to your tenant - It will then start the migration process according to the key variables you provided.
