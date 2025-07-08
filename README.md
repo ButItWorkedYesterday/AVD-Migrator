@@ -43,6 +43,7 @@ Also required:
 - This script assumes your session host names end with a digit — which is the default behaviour (I’ve personally never seen one that doesn’t). That digit is used to generate the image version for each VM. For example, AVD-VM-25 becomes image version 1.0.25.
 
 - It also assumes you're using Trusted Launch VMs. If you're not, you can adjust that setting in the `$vmConfig` part.
+- VM size is defined in the $vmConfig - You can change it accordingly.
 
 - The script is currently set up for a single region, but you can modify it to support multiple regions if needed.
 
