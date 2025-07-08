@@ -52,7 +52,7 @@ Also required:
 
 - Migration takes about 15 minutes per VM. The process runs sequentially (no parallelism yet), but I may consider looking into parallel execution in a future update if there's demand.
 
-- Lastly, this script was designed with personal host pools in mind. While you can technically use it to migrate pooled session hosts (just remove the user assignment logic), I haven’t tested that scenario.
+- This script was designed with personal host pools in mind. While you can technically use it to migrate pooled session hosts (just remove the user assignment logic), I haven’t tested that scenario.
 
 ### How to use it:
 
